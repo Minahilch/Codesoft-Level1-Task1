@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="icon" type="image/png" href="images/img.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/aee7d72c84.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="head">
+    <div class="navbar">
+        <nav>
+            <ul id="menu-items">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#about">About Me</a></li>
+                <li><a href="index.html#services">My Services</a></li>
+                <li><a href="index.html#portfolio">My Work</a></li>
+                <li><a href="index.html#contact">Contact Me</a></li>
+                <i class="fa-solid fa-xmark"></i>
+            </ul>
+            <i class="fa-solid fa-bars"></i>
+        </nav>
+    </div>
+    <div class="content">
+        <h4>Hello,My name is </h4>
+        <h1>Minahil <span>Ch</span></h1>
+        <h4>I'm a web Developer and this<br> is my  offical portfolio to<br> show all Detail and work experience</h4>
+        <a href="index.html#about" class="info">More about me</a>
+            <div class="images">
+                <img src="images/shape1.jpg" class="shape">
+                <img src="images/img.png" class="pic">
+            </div>
+    </div>
+</div>  
+<!------------ about  ------------>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/aboutme.jpg" >
+            </div>
+            <div class="about-col-2">
+                <h1 class="subtitle">About Me</h1>
+                <p>Hi! I'm Minahil Ch, a BBIT student with a passion for web development.
+                I love creating responsive,<br> user-friendly websites and exploring the 
+                latest in web technologies. When I'm not coding, I enjoy<br> learning new 
+                tools and connecting with the tech community.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>HTML & CSS</span><br>Creating structured and styled web pages</li>
+                        <li><span>Front-End Frameworks</span><br>Creating Front-end of websites</li>
+                        <li><span>JavaScript</span><br>Skilled in JavaScript for dynamic content</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>June 2022 - Present</span><br>Junior Web Developer at Tech Innovators Inc.</li>
+                        <li><span>January 2022 - May 2022</span><br>Web Development Intern at Creative Solutions Co.</li>
+                        <li><span>June 2021 - December 2021</span><br>Freelance Web Developer at Self-Employed.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2021-Present</span><br>BBIT at UET.</li>
+                        <li><span>2019-2021</span><br>ICS from C.B Degree College.</li>
+                        <li><span>2017-2019</span><br>Matric from F.G Girls School.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>  
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>   
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>Develop secure and scalable e-commerce platforms with features like shopping carts, payment gateways, and inventory management.
+                 Optimize online stores for user experience and conversions, ensuring a seamless shopping experience across all devices.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-edge"></i>
+                <h2>Front-End Development</h2>
+                <p>Create bespoke, responsive, and interactive user interfaces using HTML, CSS, and JavaScript.
+                    Ensure designs are pixel-perfect and align with your brand identity and user experience goals.</p><br>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX</h2>
+                <p>Conduct comprehensive user research to understand the target audience, their needs, and behaviors.
+                    Analyze user data and feedback to inform design decisions and create user personas and journey maps.</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -----------my work---------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title1">My Work</h1>
+        <div class="worklist">
+            <div class="work">
+                <img src="images/work1.webp" >
+                <div class="layer">
+                    <h3>Vitual travel Website</h3>
+                    <p>The website connect you virtually.You can easily book tickets online.</p><br>Open and try this.    
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>         
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work2.avif" >
+                <div class="layer">
+                    <h3>E-commerce Website</h3>
+                    <p>All the items are available online.You can easily buy differnt items.</p><br>Open to buy things.    
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>         
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work3.jpg" >
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connect you with your home.And do anything that you want.</p><br>Download it now.    
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>         
+                </div>
+            </div>
+        </div>
+        <a class="btn" href="#">See More</a>
+    </div>
+</div>
+<!-- ------contact me----------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-titles">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>contact@example.com</p>
+                <p><i class="fa-solid fa-phone"></i>0327383821</p>
+                <div class="social-icon">
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+                <a href="images/CV.pdf" download class="btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form action="">
+                    <input type="text" name="myname" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your E-mail" required>
+                    <textarea name="message"  rows="5" placeholder="Your Message" required></textarea><br>
+                    <button type="submit" class="btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+</div>
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+</body>
+</html>
